@@ -1,4 +1,6 @@
 # Kaspa Vanity Address Generator
+---
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/kryonkas/kas-vanity)
 
 Kaspa vanity address generator. Uses brute-force search on mnemonic combinations to find addresses matching specific prefixes or suffixes.
 
