@@ -11,7 +11,7 @@ Kaspa vanity address generator. Uses brute-force search on mnemonic combinations
 ## Installation
 
 ```bash
-git clone https://github.com/kryon/kas-vanity.git
+git clone https://github.com/kryonkas/kas-vanity.git
 cd kas-vanity
 cargo build --release
 ```
