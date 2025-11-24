@@ -1,0 +1,23 @@
+[package]
+name = "kas-vanity"
+version = "0.1.0"
+edition = "2024"
+authors = ["kryon.kas"]
+description = "High-performance Kaspa vanity address generator"
+repository = "https://github.com/kryon/kas-vanity"
+license = "MIT"
+keywords = ["kaspa", "vanity", "address", "mnemonic"]
+categories = ["command-line-utilities", "cryptography"]
+
+[lib]
+name = "kas_vanity"
+path = "src/vanity.rs"
+
+[dependencies]
+bip32 = "0.5"
+bip39 = "2.2"
+clap = { version = "4.5", features = ["derive"] }
+kaspa-addresses = "0.15"
+rand = "0.9"
+rayon = "1.11"
+k256 = "0.13"
